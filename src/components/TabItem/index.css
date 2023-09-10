@@ -1,0 +1,24 @@
+.tab-item {
+  list-style-type: none;
+}
+
+.tab-item-para {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+
+  padding: 10px;
+}
+
+.active-class {
+  border-bottom: 3px solid #fec653;
+  color: #fec653;
+}
+
+@media (max-width: 767px) {
+  .tab-item-para {
+    font-size: 13px;
+
+    padding: 8px;
+  }
+}

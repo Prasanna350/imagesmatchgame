@@ -1,0 +1,21 @@
+.thumbnail-list-item {
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
+.thumbnail-img-ele {
+  height: 83px;
+  width: 85px;
+}
+
+@media (max-width: 767px) {
+  .thumbnail-list-item {
+    list-style-type: none;
+    margin-bottom: 7px;
+  }
+
+  .thumbnail-img-ele {
+    height: 80px;
+    width: 80px;
+  }
+}
